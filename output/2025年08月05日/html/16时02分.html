@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2025-08-05 16:02:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">5</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lZY7smMbkQ" target="_blank" class="news-link">调查正式启动，特朗普要把奥巴马送进监狱？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lZVV5CNYvF" target="_blank" class="news-link">特朗普没爱上白宫保洁，但短剧出海平台真摊上了事</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lZVrAg7o3N" target="_blank" class="news-link">印度向特朗普叫屈：土耳其也买啊，怎么不罚</a> [6] <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2106159" target="_blank" class="news-link">一文了解：特朗普宣布新关税后 中东各国企业将面临多少税率</a> [12] <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534967383476145703/" target="_blank" class="news-link">面对特朗普关税威胁印度该如何接招</a> [19] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B5%B7%E5%A4%96%E8%A7%82%E4%BC%97%E6%80%8E%E4%B9%88%E7%9C%8B%E5%9B%BD%E4%BA%A7%E5%8A%A8%E7%94%BB" target="_blank" class="news-link">海外观众怎么看国产动画</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lZVV5CNYvj" target="_blank" class="news-link">瑞士钟表巨头哭诉：不在中国造已经很贵了，再加39%很难顶啊</a> [7] <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534970404289383979/" target="_blank" class="news-link">中国第三款六代机来了吗</a> [16] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2106256" target="_blank" class="news-link">56名意向投资人参与预招募、设置5000万元“报名费”门槛 哪吒汽车正式开启重整招募</a> [11] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技 机器人 阿里 腾讯</td>
+                <td class="count">1</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2106034" target="_blank" class="news-link">机器人成八月最强主线？多场盛会密集召开 又一波“上新潮”临近</a> [13] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">1</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2193205" target="_blank" class="news-link">广东这场暴雨怎么来的</a> [6] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
