@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 59</p><p>生成时间: 2025-08-06 17:05:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">6.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E5%AF%B9%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E6%B8%B8%E5%AE%A2%E4%B8%B4%E6%97%B6%E5%85%8D%E7%AD%BE" target="_blank" class="news-link">韩国对中国团队游客临时免签</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535335682407927359/" target="_blank" class="news-link">杨毅评中国男篮亚洲杯首战</a> [11] <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2194409" target="_blank" class="news-link">25岁中国翼装飞行者意大利遇难</a> [18] <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=25%E5%B2%81%E4%B8%AD%E5%9B%BD%E7%BF%BC%E8%A3%85%E9%A3%9E%E8%A1%8C%E8%80%85%E6%92%9E%E5%B2%A9%E5%A3%81%E8%BA%AB%E4%BA%A1" target="_blank" class="news-link">25岁中国翼装飞行者撞岩壁身亡</a> [23] <font color='grey'>- 17时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">4</td>
+                <td class="percentage">6.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E4%B8%8070%E5%90%8E%E5%89%AF%E5%8E%85%E9%95%BF%E5%9C%A8%E8%B4%B5%E5%B7%9E%E5%9B%A0%E7%97%85%E5%8E%BB%E4%B8%96" target="_blank" class="news-link">浙江一70后副厅长在贵州因病去世</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2107584" target="_blank" class="news-link">上海具身智能产业规划出炉：核心产业规模剑指500亿 探索算力、语料作价入股</a> [9] <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535290529597341738/" target="_blank" class="news-link">广东惠州淡水河漫堤处已加固完成</a> [17] <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B1%9F%E8%8B%8F%E9%A6%96%E5%AF%8C%E4%B9%8B%E5%AD%90%E6%8B%9F%E4%BB%BB400%E4%BA%BF%E5%B8%82%E5%80%BC%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B" target="_blank" class="news-link">江苏首富之子拟任400亿市值公司董事</a> [26] <font color='grey'>- 17时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">科技 机器人 阿里 腾讯</td>
+                <td class="count">2</td>
+                <td class="percentage">3.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2107672" target="_blank" class="news-link">一图看懂 | 机器人产业“盛宴开启” 8月重磅大事一览</a> [8] <font color='grey'>- 17时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2107737" target="_blank" class="news-link">【每日收评】沪指三连阳逼近年内高点！全市场近百股涨超9%，机器人、军工股双双爆发</a> [12] <font color='grey'>- 17时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936352892459123894" target="_blank" class="news-link">特斯拉在欧洲销量暴跌，英德腰斩，瑞典跌 86%，法国跌 27%，四国月销量不及中国零头，受哪些因素影响？</a> [10] <font color='grey'>- 17时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">1.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752718" target="_blank" class="news-link">六年来首次！OpenAI新模型开放权重，Altman称为“全球最佳开放模型”</a> [10] <font color='grey'>- 17时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
