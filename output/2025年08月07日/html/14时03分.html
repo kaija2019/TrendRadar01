@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-08-07 14:03:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">3</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8lcbp9CCXSu" target="_blank" class="news-link">库克给特朗普送礼：康宁玻璃+纯金底座，刻着特朗普的名字(图)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时03分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936691965442888328" target="_blank" class="news-link">特朗普拟对非美制芯片征收 100% 关税，苹果承诺在美投资增至六千亿美元，这将对全球经济产生多大影响？</a> [11] <font color='grey'>- 14时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535692397911199270/" target="_blank" class="news-link">苹果市值一夜大增万亿元</a> [14] <font color='grey'>- 14时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">3</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936688473336668485" target="_blank" class="news-link">特朗普称美将对芯片和半导体征收约 100% 的关税，有哪些意图？将带来哪些影响？</a> [6] <font color='grey'>- 14时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535676609882230335/" target="_blank" class="news-link">普京跟美国特使会面释放了什么信号</a> [13] <font color='grey'>- 14时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535678537030700583/" target="_blank" class="news-link">评论员：两大因素致特朗普对印变脸</a> [30] <font color='grey'>- 14时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">2</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936165649241076667" target="_blank" class="news-link">社保新规 9 月 1 日实施，对普通人有什么影响？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%94%B7%E5%AD%90%E7%A6%BB%E5%A9%9A%E5%8D%96%E6%8E%89%E5%A5%B3%E5%84%BF%E5%8D%83%E4%B8%87%E6%88%BF%E4%BA%A7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26pos%3D9%26c_type%3D31%26band_rank%3D10%26cate%3D5001%26realpos%3D10%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E7%2594%25B7%25E5%25AD%2590%25E7%25A6%25BB%25E5%25A9%259A%25E5%258D%2596%25E6%258E%2589%25E5%25A5%25B3%25E5%2584%25BF%25E5%258D%2583%25E4%25B8%2587%25E6%2588%25BF%25E4%25BA%25A7%2523%26flag%3D1%26dgr%3D0%26display_time%3D1754546408%26pre_seqid%3D17545464081150509380137" target="_blank" class="news-link">男子离婚卖掉女儿千万房产</a> [10] <font color='grey'>- 14时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31312093" target="_blank" class="news-link">5岁女孩看完《南京照相馆》大哭：妈妈，中国真的变强了吗？</a> [19] <font color='grey'>- 14时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
