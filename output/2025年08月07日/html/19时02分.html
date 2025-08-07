@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-08-07 19:02:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">14.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535755462256853028/" target="_blank" class="news-link">中国男篮大胜印度</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%87%8A%E6%B0%B8%E4%BF%A1%E8%A2%AB%E6%9F%A5+%E4%B8%AD%E5%9B%BD%E4%BD%9B%E5%8D%8F%EF%BC%9A%E8%B4%A5%E5%9D%8F%E4%BD%9B%E6%95%99%E6%95%99%E9%A3%8E" target="_blank" class="news-link">释永信被查 中国佛协：败坏佛教教风</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%9B%92%E9%A9%AC%E4%B8%8D%E6%84%BF%E5%81%9A%E4%B8%AD%E5%9B%BD%E5%B1%B1%E5%A7%86%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D8%26cate%3D5001%26lcate%3D5001%26realpos%3D8%26stream_entry_id%3D31%26pos%3D9%26dgr%3D0%26flag%3D1%26c_type%3D31%26q%3D%2523%25E7%259B%2592%25E9%25A9%25AC%25E4%25B8%258D%25E6%2584%25BF%25E5%2581%259A%25E4%25B8%25AD%25E5%259B%25BD%25E5%25B1%25B1%25E5%25A7%2586%25E4%25BA%2586%2523%26filter_type%3Drealtimehot%26display_time%3D1754563801%26pre_seqid%3D175456380139102303249101" target="_blank" class="news-link">盒马不愿做中国山姆了</a> [8] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936323940634063875" target="_blank" class="news-link">澳洲 14 岁中国交换生遇刺身亡，逮捕一名 13 岁交换生，具体情况如何？该如何追责？</a> [8] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2195709" target="_blank" class="news-link">中国佛教协会：释永信败坏教风</a> [10] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535152821750988863/" target="_blank" class="news-link">中国佛教协会就释永信被查发声</a> [21] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E4%BD%9B%E6%95%99%E5%8D%8F%E4%BC%9A%E5%B0%B1%E9%87%8A%E6%B0%B8%E4%BF%A1%E8%A2%AB%E6%9F%A5%E5%8F%91%E5%A3%B0%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D22%26cate%3D5001%26lcate%3D5001%26realpos%3D22%26stream_entry_id%3D31%26pos%3D23%26dgr%3D0%26flag%3D1%26c_type%3D31%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BD%259B%25E6%2595%2599%25E5%258D%258F%25E4%25BC%259A%25E5%25B0%25B1%25E9%2587%258A%25E6%25B0%25B8%25E4%25BF%25A1%25E8%25A2%25AB%25E6%259F%25A5%25E5%258F%2591%25E5%25A3%25B0%2523%26filter_type%3Drealtimehot%26display_time%3D1754563801%26pre_seqid%3D175456380139102303249101" target="_blank" class="news-link">中国佛教协会就释永信被查发声</a> [22] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lcxNwToICl" target="_blank" class="news-link">美国宪法网站一度删除特朗普不喜欢的条文，国会图书馆解释</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%8E%E6%99%AE%E4%BA%AC%E5%B0%86%E6%9C%89%E5%A4%A7%E5%8A%A8%E4%BD%9C" target="_blank" class="news-link">特朗普与普京将有大动作</a> [18] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535784377729699366/" target="_blank" class="news-link">广东惠阳淡水河决堤？不实</a> [10] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%8C%97%E4%BA%ACWBG%E5%AF%B9%E6%88%98ACT&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D26%26cate%3D5001%26lcate%3D5001%26realpos%3D26%26stream_entry_id%3D31%26pos%3D27%26dgr%3D0%26flag%3D1%26c_type%3D31%26q%3D%25E5%258C%2597%25E4%25BA%25ACWBG%25E5%25AF%25B9%25E6%2588%2598ACT%26filter_type%3Drealtimehot%26display_time%3D1754563801%26pre_seqid%3D175456380139102303249101" target="_blank" class="news-link">北京WBG对战ACT</a> [26] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936737183512896396" target="_blank" class="news-link">对于樊振东以首个战略投资者的身份加入 MLTT？你有什么看法？这源于什么初衷?</a> [16] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
