@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 41</p><p>生成时间: 2025-08-08 01:04:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">4</td>
+                <td class="percentage">9.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752868" target="_blank" class="news-link">历史性时刻！特朗普将签署行政令，允许401K账户投资加密货币、私募基金等其他另类投资</a> [7] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535612710063459882/" target="_blank" class="news-link">特朗普：对芯片和半导体征100%关税</a> [23] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E8%8B%B1%E7%89%B9%E5%B0%94CEO%E5%BF%85%E9%A1%BB%E7%AB%8B%E5%8D%B3%E8%BE%9E%E8%81%8C" target="_blank" class="news-link">特朗普：英特尔CEO必须立即辞职</a> [26] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535064509708976171/" target="_blank" class="news-link">特朗普敦促英特尔首席执行官辞职</a> [30] <font color='grey'>- 01时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">7.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535828864673726483/" target="_blank" class="news-link">中国体育代表团入场BGM是《茉莉花》</a> [20] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E4%BA%A7%E9%81%AE%E9%98%B3%E5%B8%BD%E4%B8%BA%E4%BD%95%E8%83%BD%E5%9C%A8%E6%B5%B7%E5%A4%96%E5%B9%B3%E5%8F%B0%E5%8D%96%E7%88%86" target="_blank" class="news-link">国产遮阳帽为何能在海外平台卖爆</a> [21] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E6%B5%B7%E5%A4%A7%E6%B5%B7%E6%B0%B4%E5%90%8A%E5%9D%A0%E8%A2%AB%E6%A0%87%E4%BB%B75000%E5%85%83%E5%87%BA%E5%94%AE%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26c_type%3D31%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E6%25B5%25B7%25E5%25A4%25A7%25E6%25B5%25B7%25E6%25B0%25B4%25E5%2590%258A%25E5%259D%25A0%25E8%25A2%25AB%25E6%25A0%2587%25E4%25BB%25B75000%25E5%2585%2583%25E5%2587%25BA%25E5%2594%25AE%2523%26pos%3D29%26dgr%3D0%26realpos%3D28%26filter_type%3Drealtimehot%26flag%3D1%26band_rank%3D28%26display_time%3D1754586090%26pre_seqid%3D175458609024492306676117" target="_blank" class="news-link">中国海大海水吊坠被标价5000元出售</a> [28] <font color='grey'>- 01时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">3</td>
+                <td class="percentage">7.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2195861" target="_blank" class="news-link">基孔肯雅病毒为何于广东再度爆发</a> [15] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B9%BF%E4%B8%9C%E4%B8%80%E5%9C%B0%E9%94%99%E5%8F%9130%E4%B8%87%E8%A1%A5%E8%B4%B4%E5%85%AC%E5%91%8A%E8%BF%BD%E5%9B%9E%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26c_type%3D31%26q%3D%2523%25E5%25B9%25BF%25E4%25B8%259C%25E4%25B8%2580%25E5%259C%25B0%25E9%2594%2599%25E5%258F%259130%25E4%25B8%2587%25E8%25A1%25A5%25E8%25B4%25B4%25E5%2585%25AC%25E5%2591%258A%25E8%25BF%25BD%25E5%259B%259E%2523%26pos%3D26%26dgr%3D0%26realpos%3D25%26filter_type%3Drealtimehot%26flag%3D1%26band_rank%3D25%26display_time%3D1754586090%26pre_seqid%3D175458609024492306676117" target="_blank" class="news-link">广东一地错发30万补贴公告追回</a> [25] <font color='grey'>- 01时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E4%B8%80%E5%9C%B0%E9%94%99%E5%8F%9130%E4%B8%87%E8%A1%A5%E8%B4%B4%E5%85%AC%E5%91%8A%E8%BF%BD%E5%9B%9E" target="_blank" class="news-link">广东一地错发30万补贴公告追回</a> [30] <font color='grey'>- 01时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技 机器人 阿里 腾讯</td>
+                <td class="count">1</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%94%A6%E6%9C%88%E5%A6%82%E6%AD%8C%E8%85%BE%E8%AE%AF%E7%AB%99%E5%86%85%E7%83%AD%E5%BA%A6%E5%80%BC%E7%A0%B424000%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26c_type%3D31%26q%3D%2523%25E9%2594%25A6%25E6%259C%2588%25E5%25A6%2582%25E6%25AD%258C%25E8%2585%25BE%25E8%25AE%25AF%25E7%25AB%2599%25E5%2586%2585%25E7%2583%25AD%25E5%25BA%25A6%25E5%2580%25BC%25E7%25A0%25B424000%2523%26pos%3D31%26dgr%3D0%26realpos%3D30%26filter_type%3Drealtimehot%26flag%3D1%26band_rank%3D30%26display_time%3D1754586090%26pre_seqid%3D175458609024492306676117" target="_blank" class="news-link">锦月如歌腾讯站内热度值破24000</a> [30] <font color='grey'>- 01时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
