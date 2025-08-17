@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2025-08-18 01:01:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">8.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1940161416209372061" target="_blank" class="news-link">中国男篮杀入亚洲杯决赛，你觉得本届亚洲杯中国男篮表现怎么样？</a> [8] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7539402065848569363/" target="_blank" class="news-link">高诗岩对中国男篮有多大贡献</a> [15] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E6%83%B3%E8%AF%81%E6%98%8E%E8%87%AA%E5%B7%B1%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E7%2594%25B7%25E7%25AF%25AE%25E6%2583%25B3%25E8%25AF%2581%25E6%2598%258E%25E8%2587%25AA%25E5%25B7%25B1%2523%26dgr%3D0%26c_type%3D31%26pos%3D20%26cate%3D5001%26realpos%3D21%26filter_type%3Drealtimehot%26band_rank%3D21%26stream_entry_id%3D31%26display_time%3D1755449316%26pre_seqid%3D1755449316721054379212" target="_blank" class="news-link">中国男篮想证明自己</a> [21] <font color='grey'>- 01时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">2</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AE%E6%9C%89%E8%AF%B4%E6%9C%89%E7%AC%91%E8%A7%86%E9%A2%91%E8%B5%B0%E7%BA%A2%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26q%3D%2523%25E6%2599%25AE%25E4%25BA%25AC%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E6%259C%2589%25E8%25AF%25B4%25E6%259C%2589%25E7%25AC%2591%25E8%25A7%2586%25E9%25A2%2591%25E8%25B5%25B0%25E7%25BA%25A2%2523%26dgr%3D0%26c_type%3D31%26pos%3D14%26cate%3D5001%26realpos%3D15%26filter_type%3Drealtimehot%26band_rank%3D15%26stream_entry_id%3D31%26display_time%3D1755449316%26pre_seqid%3D1755449316721054379212" target="_blank" class="news-link">普京特朗普有说有笑视频走红</a> [15] <font color='grey'>- 01时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E5%9C%A8%E4%BF%84%E7%BD%97%E6%96%AF%E9%97%AE%E9%A2%98%E4%B8%8A%E5%8F%96%E5%BE%97%E9%87%8D%E5%A4%A7%E8%BF%9B%E5%B1%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E8%25AF%25B4%25E5%259C%25A8%25E4%25BF%2584%25E7%25BD%2597%25E6%2596%25AF%25E9%2597%25AE%25E9%25A2%2598%25E4%25B8%258A%25E5%258F%2596%25E5%25BE%2597%25E9%2587%258D%25E5%25A4%25A7%25E8%25BF%259B%25E5%25B1%2595%2523%26dgr%3D0%26c_type%3D31%26pos%3D15%26cate%3D5001%26realpos%3D16%26filter_type%3Drealtimehot%26band_rank%3D16%26stream_entry_id%3D31%26display_time%3D1755449316%26pre_seqid%3D1755449316721054379212" target="_blank" class="news-link">特朗普说在俄罗斯问题上取得重大进展</a> [16] <font color='grey'>- 01时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1939701516945565401" target="_blank" class="news-link">巴菲特二季度重启抛售苹果，新入两只地产股、一只钢铁股，逆势买入负面缠身的联合健康，其持仓转向有何考量？</a> [19] <font color='grey'>- 01时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%9B%E8%8E%8E+%E8%B0%A2%E8%B0%A2%E5%8C%97%E4%BA%AC&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D0%26q%3D%25E7%258E%259B%25E8%258E%258E%2520%25E8%25B0%25A2%25E8%25B0%25A2%25E5%258C%2597%25E4%25BA%25AC%26dgr%3D0%26c_type%3D31%26pos%3D22%26cate%3D5001%26realpos%3D23%26filter_type%3Drealtimehot%26band_rank%3D23%26stream_entry_id%3D31%26display_time%3D1755449316%26pre_seqid%3D1755449316721054379212" target="_blank" class="news-link">玛莎 谢谢北京</a> [23] <font color='grey'>- 01时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
