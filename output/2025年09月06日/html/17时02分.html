@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 38</p><p>生成时间: 2025-09-06 17:02:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">4</td>
+                <td class="percentage">10.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mQfpTE1PN5" target="_blank" class="news-link">特朗普称已决定在美国另一城市部署国民警卫队</a> [7] <font color='grey'>- 17时02分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mQhdqK53mD" target="_blank" class="news-link">五角大楼：委内瑞拉战机飞过美军舰上空，特朗普威胁击落</a> [8] <font color='grey'>- 17时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755062" target="_blank" class="news-link">特朗普“钦点”美联储主席人选“三强”：两个凯文和联储理事沃勒</a> [10] <font color='grey'>- 17时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E4%BC%91%E6%81%AF%E4%B8%80%E5%A4%A9%E5%B0%B1%E8%A2%AB%E4%BC%A0%E6%80%BB%E7%BB%9F%E5%87%BA%E4%BA%8B%E4%BA%86" target="_blank" class="news-link">特朗普：休息一天就被传总统出事了</a> [29] <font color='grey'>- 17时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mQdVKeSW4M" target="_blank" class="news-link">菲律宾防长对中国进行攻击抹黑，中使馆回应</a> [6] <font color='grey'>- 17时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546595827461849124/" target="_blank" class="news-link">张学良长孙：爷爷会为今日中国高兴</a> [16] <font color='grey'>- 17时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546012587754897418/" target="_blank" class="news-link">特朗普发AI视频把自己加到总统山上</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755075" target="_blank" class="news-link">贝森特“敲打”美联储：要有“人民性”，QE仅限紧急时刻，首次点名适度长期利率</a> [9] <font color='grey'>- 17时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
