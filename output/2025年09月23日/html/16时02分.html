@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2025-09-23 16:02:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">3</td>
+                <td class="percentage">4.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E5%B1%85%E6%B0%91%E7%AA%97%E4%B8%8A%E8%B4%B4%E2%80%9C%E9%BA%A6%E2%80%9D%E5%AD%97%EF%BC%9A%E5%9B%A0%E4%B8%BA%E9%BA%A6%E5%85%8B%E9%A3%8E" target="_blank" class="news-link">广东居民窗上贴“麦”字：因为麦克风</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2152783" target="_blank" class="news-link">国家海洋预报台发布海浪红色警报：广东近岸海域将出现4到7米的巨浪到狂浪</a> [12] <font color='grey'>- 16时02分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2246117" target="_blank" class="news-link">不吃辣是广东人最后的倔强</a> [26] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2152714" target="_blank" class="news-link">英伟达将投资千亿美元兴建数据中心 机构称算力产业化方兴未艾</a> [13] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553166971689242158/" target="_blank" class="news-link">专家：中国航母战力将登上世界之巅</a> [7] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2245877" target="_blank" class="news-link">五常仅美国未承认巴勒斯坦国</a> [17] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2153105" target="_blank" class="news-link">三年来最大单日流入！全球投资者竞相“扫货”黄金ETF 金价再创新高</a> [9] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
