@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-09-23 08:06:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">4</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2152689" target="_blank" class="news-link">【早报】英伟达股价创新高！拟向OpenAI投资最高1000亿美元；潘功胜、李云泽、吴清、朱鹤新同日发声</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756025" target="_blank" class="news-link">英伟达引爆科技股行情，三大美股指齐创新高，黄金破纪录高点，加密货币大跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756056" target="_blank" class="news-link">英伟达最大手笔投资承诺！砸1000亿美元助OpenAI建10GW数据中心</a> [10] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8B%9F%E5%90%91OpenAI%E6%8A%95%E8%B5%841000%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">英伟达拟向OpenAI投资1000亿美元</a> [15] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">4</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E7%A6%8F%E5%BB%BA%E5%A4%A7%E6%9A%B4%E9%9B%A8+%E5%8F%B0%E6%B9%BE%E5%B1%80%E5%9C%B0%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8" target="_blank" class="news-link">广东福建大暴雨 台湾局地特大暴雨</a> [6] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7552463659990466611/" target="_blank" class="news-link">广东部分商超被搬空只剩辣椒</a> [9] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7552924105087913513/" target="_blank" class="news-link">广东潮州分时段停课停运停业</a> [16] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=17%E7%BA%A7%E5%8F%B0%E9%A3%8E%E2%80%9C%E6%A1%A6%E5%8A%A0%E6%B2%99%E2%80%9D%E6%98%8E%E6%97%A5%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C" target="_blank" class="news-link">17级台风“桦加沙”明日登陆广东</a> [26] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E5%B0%86%E4%B8%8E%E4%B8%AD%E5%9B%BD%E9%A2%86%E5%AF%BC%E4%BA%BA%E4%BC%9A%E6%99%A4%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26pos%3D9%26band_rank%3D9%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E8%25AF%25B4%25E5%25B0%2586%25E4%25B8%258E%25E4%25B8%25AD%25E5%259B%25BD%25E9%25A2%2586%25E5%25AF%25BC%25E4%25BA%25BA%25E4%25BC%259A%25E6%2599%25A4%2523%26dgr%3D0%26realpos%3D9%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26cate%3D5001%26c_type%3D31%26display_time%3D1758585943%26pre_seqid%3D17585859430550303595774" target="_blank" class="news-link">特朗普说将与中国领导人会晤</a> [9] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%89%E7%90%86%E4%BC%9A%E4%BA%94%E5%B8%B8%E4%BB%85%E7%BE%8E%E5%9B%BD%E6%9C%AA%E6%89%BF%E8%AE%A4%E5%B7%B4%E5%8B%92%E6%96%AF%E5%9D%A6%E5%9B%BD" target="_blank" class="news-link">安理会五常仅美国未承认巴勒斯坦国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">电力 电力 电网 电力交易市场 绿电 新能源 光伏 核能 核电 水电 风电 火电</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%96%B0%E8%83%BD%E6%BA%90%E7%83%82%E5%B0%BE%E8%BD%A6%E5%9B%B0%E6%89%B0%E5%87%A0%E7%99%BE%E4%B8%87%E8%BD%A6%E4%B8%BB%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26pos%3D25%26band_rank%3D25%26q%3D%2523%25E6%2596%25B0%25E8%2583%25BD%25E6%25BA%2590%25E7%2583%2582%25E5%25B0%25BE%25E8%25BD%25A6%25E5%259B%25B0%25E6%2589%25B0%25E5%2587%25A0%25E7%2599%25BE%25E4%25B8%2587%25E8%25BD%25A6%25E4%25B8%25BB%2523%26dgr%3D0%26realpos%3D25%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26cate%3D5001%26c_type%3D31%26display_time%3D1758585943%26pre_seqid%3D17585859430550303595774" target="_blank" class="news-link">新能源烂尾车困扰几百万车主</a> [25] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
