@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 49</p><p>生成时间: 2025-09-24 08:06:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">6</td>
+                <td class="percentage">12.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7552911760854106148/" target="_blank" class="news-link">广东省委书记：决战就在眼前</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%A7%94%E4%B9%A6%E8%AE%B0%EF%BC%9A%E5%86%B3%E6%88%98%E5%B0%B1%E5%9C%A8%E7%9C%BC%E5%89%8D" target="_blank" class="news-link">广东省委书记：决战就在眼前</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31666230" target="_blank" class="news-link">转移超104万人，广东全力应对台风“桦加沙”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E5%A4%9A%E5%AE%B6%E9%A4%90%E5%8E%85%E7%A7%9F%E9%87%8D%E5%8D%A1%E5%81%9C%E5%BA%97%E9%97%A8%E5%89%8D" target="_blank" class="news-link">广东多家餐厅租重卡停店门前</a> [6] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553251436952289290/" target="_blank" class="news-link">广东店主砌1米2砖墙防台风</a> [14] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E9%A2%84%E8%AE%A1%E4%BB%8A%E5%A4%A9%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C+%E9%98%B5%E9%A3%8E%E5%8F%AF%E8%BE%BE17%E7%BA%A7" target="_blank" class="news-link">台风预计今天登陆广东 阵风可达17级</a> [15] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">3</td>
+                <td class="percentage">6.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553209826621394468/" target="_blank" class="news-link">特朗普称其重返白宫后已结束7场战争</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2153979" target="_blank" class="news-link">【早报】王毅会见美国国会众议员代表团；今日头条、UC平台被查处</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553343155702136886/" target="_blank" class="news-link">如何看待特朗普与古特雷斯的分歧</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">4.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone%E7%81%B5%E5%8A%A8%E5%B2%9B%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26flag%3D1%26realpos%3D17%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D18%26band_rank%3D17%26cate%3D5001%26q%3DiPhone%25E7%2581%25B5%25E5%258A%25A8%25E5%25B2%259B%25E6%25AD%25A3%25E7%25A1%25AE%25E6%2589%2593%25E5%25BC%2580%25E6%2596%25B9%25E5%25BC%258F%26display_time%3D1758671768%26pre_seqid%3D1758671768180016593737" target="_blank" class="news-link">iPhone灵动岛正确打开方式</a> [17] <font color='grey'>- 08时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553117507243773476/" target="_blank" class="news-link">iPhone 17 Pro展示机划痕背后</a> [19] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2153973" target="_blank" class="news-link">特朗普称乌克兰边界有望“恢复原状” OpenAI与甲骨文共建数据中心 | 环球市场</a> [13] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1953739895605552462" target="_blank" class="news-link">境外证券开户监管再次升级，富途及老虎拟进一步关闭中国内地居民开户通道，对此你怎么看，对存量账户影响吗？</a> [9] <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技 机器人 阿里 腾讯</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756102" target="_blank" class="news-link">鲍威尔称美股估值偏高，三大股指涨势终结，科技股领跌，原油黄金走高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
