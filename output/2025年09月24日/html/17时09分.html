@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 49</p><p>生成时间: 2025-09-24 17:09:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">3</td>
+                <td class="percentage">6.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756128" target="_blank" class="news-link">美国9月Markit制造业、服务业PMI回落，但均扩张，价格缓和</a> [9] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31673162" target="_blank" class="news-link">特朗普在联合国批评联合国，声称“你们的国家正在走向地狱”</a> [18] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31671416" target="_blank" class="news-link">特朗普到纽约联合国总部演讲：扶梯坏了，提词器也故障了</a> [19] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7552790746445774874/" target="_blank" class="news-link">阿里巴巴与英伟达开展合作</a> [15] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756147" target="_blank" class="news-link">云栖大会今开幕，阿里云将展示超大规模集群、分布式训练、推理加速等能力，首次展出高密度AI服务器和高性能网络架构</a> [10] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553462766754185243/" target="_blank" class="news-link">泽连斯基称俄完全依赖中国？中方回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2154658" target="_blank" class="news-link">【每日收评】创业板指涨超2%再创3年多新高，全市场超4400股飘红，半导体芯片产业链持续火爆</a> [10] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B4%B5%E5%B7%9E%E4%BB%81%E6%80%80%E9%80%9A%E6%8A%A5%E6%8A%95%E8%B5%848%E4%BA%BF%E5%BB%BA%E5%8E%82%E9%81%AD%E5%BC%BA%E8%A1%8C%E6%8E%A5%E7%AE%A1" target="_blank" class="news-link">贵州仁怀通报投资8亿建厂遭强行接管</a> [28] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">1</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E6%B1%9F%E9%97%A8%E7%8E%B0%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E6%9C%80%E5%A4%A7%E6%9E%81%E5%A4%A7%E9%A3%8E" target="_blank" class="news-link">广东江门现历史记录最大极大风</a> [23] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
