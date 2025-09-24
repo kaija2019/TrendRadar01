@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 20</p><p>生成时间: 2025-09-25 01:07:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">2</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E5%9B%BD%E5%AE%B6%E6%95%91%E7%81%BE%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E5%8D%87%E8%87%B3%E4%B8%89%E7%BA%A7" target="_blank" class="news-link">广东国家救灾应急响应升至三级</a> [24] <font color='grey'>- 01时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%A1%A6%E5%8A%A0%E6%B2%99%E5%AF%B9%E5%B9%BF%E4%B8%9C%E7%9C%81%E9%80%A0%E6%88%90%E4%B8%A5%E9%87%8D%E5%BD%B1%E5%93%8D%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D29%26pos%3D29%26stream_entry_id%3D31%26dgr%3D0%26realpos%3D29%26flag%3D0%26q%3D%2523%25E6%25A1%25A6%25E5%258A%25A0%25E6%25B2%2599%25E5%25AF%25B9%25E5%25B9%25BF%25E4%25B8%259C%25E7%259C%2581%25E9%2580%25A0%25E6%2588%2590%25E4%25B8%25A5%25E9%2587%258D%25E5%25BD%25B1%25E5%2593%258D%2523%26display_time%3D1758732632%26pre_seqid%3D1758732632530917465916" target="_blank" class="news-link">桦加沙对广东省造成严重影响</a> [29] <font color='grey'>- 01时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">微软 Microsoft vs code</td>
+                <td class="count">1</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2154777" target="_blank" class="news-link">液冷“黑科技”！微软将冷却液“刻”进芯片 散热效率或高出三倍</a> [13] <font color='grey'>- 01时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">1</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%88%BA%E6%9D%80%E7%89%B9%E6%9C%97%E6%99%AE%E6%9C%AA%E9%81%82%E7%94%B7%E5%AD%90%E5%BD%93%E5%BA%AD%E8%AF%95%E5%9B%BE%E8%87%AA%E6%9D%80%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D22%26pos%3D22%26stream_entry_id%3D31%26dgr%3D0%26realpos%3D22%26flag%3D0%26q%3D%2523%25E5%2588%25BA%25E6%259D%2580%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E6%259C%25AA%25E9%2581%2582%25E7%2594%25B7%25E5%25AD%2590%25E5%25BD%2593%25E5%25BA%25AD%25E8%25AF%2595%25E5%259B%25BE%25E8%2587%25AA%25E6%259D%2580%2523%26display_time%3D1758732632%26pre_seqid%3D1758732632530917465916" target="_blank" class="news-link">刺杀特朗普未遂男子当庭试图自杀</a> [22] <font color='grey'>- 01时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
