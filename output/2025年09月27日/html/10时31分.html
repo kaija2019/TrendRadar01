@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-09-27 10:31:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">3</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756335" target="_blank" class="news-link">特朗普芯片新政：要求生产商国内产量与进口1:1，未达标将征关税</a> [10] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2157904" target="_blank" class="news-link">特朗普：美国或更换世界杯举办地</a> [11] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%AF%B9%E5%8D%8E%E5%8D%B0%E8%B1%A1%E6%8A%8A%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%95%B4%E7%A0%B4%E9%98%B2&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26flag%3D1%26stream_entry_id%3D31%26realpos%3D20%26pos%3D21%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D20%26q%3D%25E7%25BE%258E%25E5%259B%25BD%25E4%25BA%25BA%25E5%25AF%25B9%25E5%258D%258E%25E5%258D%25B0%25E8%25B1%25A1%25E6%258A%258A%25E6%2597%25A5%25E6%259C%25AC%25E4%25BA%25BA%25E6%2595%25B4%25E7%25A0%25B4%25E9%2598%25B2%26cate%3D5001%26display_time%3D1758939194%26pre_seqid%3D17589391945600237092158" target="_blank" class="news-link">美国人对华印象把日本人整破防</a> [20] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%87%BA%E7%8E%B0%E5%9C%A8%E7%88%B1%E6%B3%BC%E6%96%AF%E5%9D%A6%E6%A1%88%E6%96%87%E4%BB%B6%E4%B8%AD%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26flag%3D0%26stream_entry_id%3D31%26realpos%3D10%26pos%3D11%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D10%26q%3D%2523%25E9%25A9%25AC%25E6%2596%25AF%25E5%2585%258B%25E5%2587%25BA%25E7%258E%25B0%25E5%259C%25A8%25E7%2588%25B1%25E6%25B3%25BC%25E6%2596%25AF%25E5%259D%25A6%25E6%25A1%2588%25E6%2596%2587%25E4%25BB%25B6%25E4%25B8%25AD%2523%26cate%3D5001%26display_time%3D1758939194%26pre_seqid%3D17589391945600237092158" target="_blank" class="news-link">马斯克出现在爱泼斯坦案文件中</a> [10] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%B8%8E%E7%88%B1%E6%B3%BC%E6%96%AF%E5%9D%A6%E6%9C%89%E5%85%B3%E8%81%94%EF%BC%9F%E6%9C%AC%E4%BA%BA%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">马斯克与爱泼斯坦有关联？本人回应</a> [23] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">科技 机器人 阿里 腾讯</td>
+                <td class="count">2</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954143749748797709" target="_blank" class="news-link">腾讯新游《粒粒的小人国》首曝 PV&amp; 实机演示，你对这款游戏有什么期待？</a> [7] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2157587" target="_blank" class="news-link">南向资金追踪｜本周净买入约439亿港元 加仓阿里及腾讯减持华虹半导体</a> [10] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">电力 电力 电网 电力交易市场 绿电 新能源 光伏 核能 核电 水电 风电 火电</td>
+                <td class="count">2</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2157681" target="_blank" class="news-link">俄罗斯与伊朗签署250亿美元核电大单 将在伊建设4座核电机组</a> [12] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E4%B8%8E%E4%BC%8A%E6%9C%97%E7%AD%BE%E7%BD%B2250%E4%BA%BF%E7%BE%8E%E5%85%83%E6%A0%B8%E7%94%B5%E5%A4%A7%E5%8D%95" target="_blank" class="news-link">俄罗斯与伊朗签署250亿美元核电大单</a> [30] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2250092" target="_blank" class="news-link">AI一键打火机黄昏转场</a> [27] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1910634923968136357" target="_blank" class="news-link">熟悉经济学是否会让个体生活的更幸福？</a> [20] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
