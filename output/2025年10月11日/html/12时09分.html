@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-10-11 12:09:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">6</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31752399" target="_blank" class="news-link">释新闻｜加沙停火协议是如何达成的？特朗普的“非传统策略”有效？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559774349410962986/" target="_blank" class="news-link">唐驳虎：特朗普又挑起必败的关税战</a> [7] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756974" target="_blank" class="news-link">美国9月CPI报告发布时间定了！10月24日，卡在美联储决议“前夕”</a> [10] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2265997" target="_blank" class="news-link">特朗普关税威胁冲击市场信心</a> [11] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%AF%B9%E5%8D%8E%E5%85%B3%E7%A8%8E%E6%81%90%E5%90%93%E6%8A%8A%E7%BE%8E%E8%82%A1%E5%90%93%E5%87%BA%E5%BF%83%E8%84%8F%E7%97%85%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26flag%3D1%26stream_entry_id%3D31%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E5%25AF%25B9%25E5%258D%258E%25E5%2585%25B3%25E7%25A8%258E%25E6%2581%2590%25E5%2590%2593%25E6%258A%258A%25E7%25BE%258E%25E8%2582%25A1%25E5%2590%2593%25E5%2587%25BA%25E5%25BF%2583%25E8%2584%258F%25E7%2597%2585%25E4%25BA%2586%2523%26pos%3D29%26realpos%3D28%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D28%26dgr%3D0%26display_time%3D1760155642%26pre_seqid%3D17601556424660375494128" target="_blank" class="news-link">特朗普对华关税恐吓把美股吓出心脏病了</a> [28] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD11%E5%B2%81%E7%94%B7%E7%AB%A5%E7%8E%A9%E6%89%8B%E6%9E%AA%E5%A4%B1%E6%89%8B%E5%87%BB%E6%AF%99%E8%87%AA%E5%B7%B1" target="_blank" class="news-link">美国11岁男童玩手枪失手击毙自己</a> [29] <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%86%85%E6%94%BF%E9%83%A8%E9%95%BF%EF%BC%9A%E4%B8%AD%E5%9B%BD%E9%81%8F%E5%88%B6%E7%A8%80%E5%9C%9F%E5%91%BD%E8%84%89" target="_blank" class="news-link">美国内政部长：中国遏制稀土命脉</a> [16] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1959719789388883834" target="_blank" class="news-link">为什么美国建国 250 年仅 11 艘航母，而中国建国仅 76 年就有 3 艘？</a> [20] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2265651" target="_blank" class="news-link">NBA中国赛世纪同框</a> [27] <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">2</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2166275" target="_blank" class="news-link">上海：加快培育硅光、6G、第四代半导体、类脑智能等产业</a> [7] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=3%E7%94%B7%E5%AD%90%E5%81%B7%E8%BF%88%E5%B7%B4%E8%B5%AB%E4%BB%8E%E6%A0%AA%E6%B4%B2%E8%BF%9E%E5%A4%9C%E5%BC%80%E5%BE%80%E5%B9%BF%E4%B8%9C" target="_blank" class="news-link">3男子偷迈巴赫从株洲连夜开往广东</a> [23] <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559761113210949183/" target="_blank" class="news-link">英伟达市值一夜蒸发超1.6万亿元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2265959" target="_blank" class="news-link">比特币暴跌 超160万人爆仓</a> [15] <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
