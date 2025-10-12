@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2025-10-12 08:35:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">4</td>
+                <td class="percentage">6.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%82%B8%E8%8D%AF%E5%8E%82%E7%88%86%E7%82%B8%E4%BA%8B%E4%BB%B6%E5%B0%9A%E6%9C%AA%E5%8F%91%E7%8E%B0%E5%B9%B8%E5%AD%98%E8%80%85" target="_blank" class="news-link">美国炸药厂爆炸事件尚未发现幸存者</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时35分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559178057592864795/" target="_blank" class="news-link">特朗普：领袖们都说我让美国再次伟大</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时35分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8nN7iwiNOIe" target="_blank" class="news-link">朝鲜阅兵展示“最强战略核武器”，韩媒称可直接打击美国本土</a> [6] <font color='grey'>- 08时35分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E7%A0%B4%E9%98%B2%E7%9A%84%E5%8E%9F%E5%9B%A0&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D29%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26q%3D%25E7%25BE%258E%25E5%259B%25BD%25E6%2580%25BB%25E7%25BB%259F%25E7%25A0%25B4%25E9%2598%25B2%25E7%259A%2584%25E5%258E%259F%25E5%259B%25A0%26realpos%3D29%26pos%3D29%26flag%3D0%26stream_entry_id%3D31%26dgr%3D0%26display_time%3D1760228799%26pre_seqid%3D17602287998180380122808" target="_blank" class="news-link">美国总统破防的原因</a> [29] <font color='grey'>- 08时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">2</td>
+                <td class="percentage">3.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2266481" target="_blank" class="news-link">孟凡利任广东省代省长</a> [16] <font color='grey'>- 08时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9B%9D%E5%B9%BF%E4%B8%9C%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6%E2%80%9C%E5%AE%BF%E8%88%8D%E5%83%8F%E5%BA%9F%E5%BC%83%E4%BB%93%E5%BA%93%E2%80%9D" target="_blank" class="news-link">曝广东海洋大学“宿舍像废弃仓库”</a> [17] <font color='grey'>- 08时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E5%89%8DCEO%E8%AD%A6%E5%91%8A%EF%BC%9AAI%E5%8F%AF%E8%83%BD%E5%AD%A6%E4%BC%9A%E6%9D%80%E4%BA%BA" target="_blank" class="news-link">谷歌前CEO警告：AI可能学会杀人</a> [21] <font color='grey'>- 08时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757009" target="_blank" class="news-link">AI引爆美国电力需求，燃气轮机成“关键瓶颈”，GE Vernova、西门子能源和三菱重工“三巨头”面临抉择</a> [10] <font color='grey'>- 08时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/291487826" target="_blank" class="news-link">中国从秦到唐时期中国古代建筑真的很好看 到了明为什么中国建筑就这么难看了？</a> [13] <font color='grey'>- 08时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757019" target="_blank" class="news-link">币圈暴跌期间，全球第三大稳定币USDe短暂脱锚美元</a> [8] <font color='grey'>- 08时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
