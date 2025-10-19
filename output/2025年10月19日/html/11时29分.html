@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-10-19 11:29:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9C%8B%E4%B8%AD%E5%9B%BD%E2%80%9C%E6%9C%8B%E5%8F%8B%E5%9C%88%E2%80%9D%E9%87%8C%E7%9A%84%E6%96%B0%E6%9C%BA%E9%81%87" target="_blank" class="news-link">看中国“朋友圈”里的新机遇</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A6%96%E6%AC%BE%E5%85%A8%E5%9B%BD%E4%BA%A7%E9%80%9A%E7%94%A8GPU%E8%8A%AF%E7%89%87%E5%8F%91%E5%B8%83" target="_blank" class="news-link">首款全国产通用GPU芯片发布</a> [19] <font color='grey'>- 11时29分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1944135911328712452" target="_blank" class="news-link">中国古代为什么鲜有太阳神崇拜？</a> [19] <font color='grey'>- 11时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">2</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757439" target="_blank" class="news-link">各种“豁免”！在11月美国高院听证会前，特朗普政府“调整”关税策略</a> [6] <font color='grey'>- 11时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562753652985695754/" target="_blank" class="news-link">特朗普政府“调整”关税策略</a> [12] <font color='grey'>- 11时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1962101109016457762" target="_blank" class="news-link">贝莱德、英伟达等牵头组成财团，400 亿美元收购 Aligned，如何看待这笔史上最大数据中心交易 ？</a> [16] <font color='grey'>- 11时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">月球 登月 火星 宇宙 飞船</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%A8%E6%8C%AF%E5%AE%81%EF%BC%9A%E4%B8%AA%E4%BA%BA%E7%94%9F%E5%91%BD%E5%9C%A8%E5%AE%87%E5%AE%99%E6%98%AF%E9%9D%9E%E5%B8%B8%E6%B8%BA%E5%B0%8F%E7%9A%84" target="_blank" class="news-link">杨振宁：个人生命在宇宙是非常渺小的</a> [25] <font color='grey'>- 11时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31802264" target="_blank" class="news-link">行李架上的锂电池自燃，杭州飞韩国一航班备降上海浦东机场</a> [15] <font color='grey'>- 11时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
