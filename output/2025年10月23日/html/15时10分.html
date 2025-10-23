@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-10-23 15:10:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">11.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%AA%81%E7%A0%B4%E7%93%B6%E9%A2%88%EF%BC%81%E4%B8%AD%E5%9B%BD%E6%88%90%E5%8A%9F%E7%A0%94%E5%88%B6%E6%96%B0%E5%9E%8B%E8%8A%AF%E7%89%87" target="_blank" class="news-link">突破瓶颈！中国成功研制新型芯片</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7%E4%BA%8C%E6%AC%A1%E5%85%83%E6%B8%B8%E6%88%8F%E9%9F%B3%E4%B9%90%E8%B5%8F%E6%9E%90" target="_blank" class="news-link">国产二次元游戏音乐赏析</a> [6] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ngBgHdOZEg" target="_blank" class="news-link">以彼之道，还施彼身！中国卫星回应美方太空挑衅</a> [6] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564276764516552201/" target="_blank" class="news-link">欧洲急求和中国“沟通”</a> [27] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%AC%AC8%E4%BD%8DNBA%E5%B8%B8%E8%A7%84%E8%B5%9B%E7%99%BB%E5%9C%BA%E4%B8%AD%E5%9B%BD%E7%90%83%E5%91%98%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D27%26lcate%3D5001%26realpos%3D27%26pos%3D28%26stream_entry_id%3D31%26q%3D%2523%25E6%259D%25A8%25E7%2580%259A%25E6%25A3%25AE%25E7%25AC%25AC8%25E4%25BD%258DNBA%25E5%25B8%25B8%25E8%25A7%2584%25E8%25B5%259B%25E7%2599%25BB%25E5%259C%25BA%25E4%25B8%25AD%25E5%259B%25BD%25E7%2590%2583%25E5%2591%2598%2523%26flag%3D0%26dgr%3D0%26display_time%3D1761203348%26pre_seqid%3D176120334834401175894135" target="_blank" class="news-link">杨瀚森第8位NBA常规赛登场中国球员</a> [27] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%99%86%E4%B8%80%E9%B8%A3%E4%BB%BB%E6%B3%A2%E9%9F%B3%E4%B8%AD%E5%9B%BD%E6%80%BB%E8%A3%81+%E6%9F%B3%E9%9D%92%E9%80%80%E4%BC%91" target="_blank" class="news-link">陆一鸣任波音中国总裁 柳青退休</a> [29] <font color='grey'>- 15时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">3</td>
+                <td class="percentage">5.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31824325" target="_blank" class="news-link">河南登封拟对一镇征收房产税引发热议</a> [18] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1964357892892221590" target="_blank" class="news-link">如何看待巴曙松「全球原有的经济增长模式已无法持续，资产配置基本逻辑发生改变」的观点？</a> [18] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564264825543462441/" target="_blank" class="news-link">博主：房地产行业深度调整期来临</a> [20] <font color='grey'>- 15时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京</td>
+                <td class="count">3</td>
+                <td class="percentage">5.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2178067" target="_blank" class="news-link">核聚变商业化曙光初现 上海全链条打造“聚变之城”</a> [8] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8C%97%E4%BA%AC%E7%A1%AE%E4%BF%9D11%E6%9C%881%E6%97%A5%E5%85%B7%E5%A4%87%E4%BE%9B%E6%9A%96%E6%9D%A1%E4%BB%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D10%26lcate%3D5001%26realpos%3D10%26pos%3D11%26stream_entry_id%3D31%26q%3D%2523%25E5%258C%2597%25E4%25BA%25AC%25E7%25A1%25AE%25E4%25BF%259D11%25E6%259C%25881%25E6%2597%25A5%25E5%2585%25B7%25E5%25A4%2587%25E4%25BE%259B%25E6%259A%2596%25E6%259D%25A1%25E4%25BB%25B6%2523%26flag%3D1%26dgr%3D0%26display_time%3D1761203348%26pre_seqid%3D176120334834401175894135" target="_blank" class="news-link">北京确保11月1日具备供暖条件</a> [10] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%EF%BC%9A%E7%A1%AE%E4%BF%9D11%E6%9C%881%E6%97%A5%E5%85%B7%E5%A4%87%E4%BE%9B%E6%9A%96%E6%9D%A1%E4%BB%B6" target="_blank" class="news-link">北京：确保11月1日具备供暖条件</a> [12] <font color='grey'>- 15时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ngBgHdOZ9Y" target="_blank" class="news-link">美国被曝考虑限制软件驱动产品对华出口，贝森特回应</a> [7] <font color='grey'>- 15时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564254660786130471/" target="_blank" class="news-link">特朗普为啥又不想见普京了</a> [25] <font color='grey'>- 15时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=iPhone%E5%91%BD%E5%90%8D%E6%88%96%E8%B7%B3%E8%BF%8719" target="_blank" class="news-link">iPhone命名或跳过19</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
