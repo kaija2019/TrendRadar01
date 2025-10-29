@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 41</p><p>生成时间: 2025-10-29 23:09:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">3</td>
+                <td class="percentage">7.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7566636629780074026/" target="_blank" class="news-link">全球首个！英伟达总市值站上5万亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%B8%80%E5%AE%B6%EF%BC%81%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E8%B6%855%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">史上第一家！英伟达市值超5万亿美元</a> [7] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%8B%B1%E4%BC%9F%E8%BE%BE&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26band_rank%3D9%26q%3D%25E8%258B%25B1%25E4%25BC%259F%25E8%25BE%25BE%26dgr%3D0%26realpos%3D9%26filter_type%3Drealtimehot%26pos%3D10%26flag%3D1%26display_time%3D1761749406%26pre_seqid%3D17617494065850269825109" target="_blank" class="news-link">英伟达</a> [9] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普</td>
+                <td class="count">3</td>
+                <td class="percentage">7.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nr2YjDaVBd" target="_blank" class="news-link">韩方首次宣布有意造核潜艇，请求美国提供核燃料</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%AB%E5%81%9C%E6%89%80%E6%9C%89%E7%BE%8E%E8%88%AA%E6%AF%8D%E7%94%B5%E7%A3%81%E5%BC%B9%E5%B0%84%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26band_rank%3D6%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E5%258F%25AB%25E5%2581%259C%25E6%2589%2580%25E6%259C%2589%25E7%25BE%258E%25E8%2588%25AA%25E6%25AF%258D%25E7%2594%25B5%25E7%25A3%2581%25E5%25BC%25B9%25E5%25B0%2584%2523%26dgr%3D0%26realpos%3D6%26filter_type%3Drealtimehot%26pos%3D6%26flag%3D1%26display_time%3D1761749406%26pre_seqid%3D17617494065850269825109" target="_blank" class="news-link">特朗普叫停所有美航母电磁弹射</a> [6] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7566597956187459108/" target="_blank" class="news-link">大V：日韩在较劲谁能讨特朗普欢心</a> [25] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BD%91%E7%BB%9C%E4%B8%AD%E5%9B%BD%E8%8A%82%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26band_rank%3D3%26q%3D%2523%25E7%25BD%2591%25E7%25BB%259C%25E4%25B8%25AD%25E5%259B%25BD%25E8%258A%2582%2523%26dgr%3D0%26realpos%3D3%26filter_type%3Drealtimehot%26pos%3D2%26flag%3D1%26display_time%3D1761749406%26pre_seqid%3D17617494065850269825109" target="_blank" class="news-link">网络中国节</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7565673030240780329/" target="_blank" class="news-link">李显龙：中国繁荣我们就繁荣</a> [30] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31533770" target="_blank" class="news-link">那些“染上网瘾”的老年人，要怎么和AI相处？</a> [19] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">经济 通胀 利息 利率 投资 房地产 房产 收益 回报 社保 数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E5%AE%9A%E8%B0%83%EF%BC%81%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%96%B9%E5%90%91%E6%98%8E%E7%A1%AE" target="_blank" class="news-link">中央定调！未来五年房地产方向明确</a> [27] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
