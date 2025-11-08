@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-11-08 08:04:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">3</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569525188551802943/" target="_blank" class="news-link">中国双航母在南海部署已成事实</a> [8] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758899" target="_blank" class="news-link">荷兰政府：预计安世中国将很快恢复芯片供应 荷方将继续与中方、欧盟等密切协调</a> [10] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2298434" target="_blank" class="news-link">薛之谦 中国唱将师资团里的魔丸</a> [30] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">3</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8o6egNlOr5R" target="_blank" class="news-link">欧尔班：美国不会因购买俄能源制裁匈牙利</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31916480" target="_blank" class="news-link">特朗普达成减肥药降价计划，“美民众一年将合计减重5600万公斤”</a> [20] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%B8%8C%E6%9C%9B%E5%9C%A8%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF%E4%B8%8E%E6%99%AE%E4%BA%AC%E4%BC%9A%E6%99%A4" target="_blank" class="news-link">特朗普：希望在布达佩斯与普京会晤</a> [23] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 elon mask 星链 航天 火箭 nasa 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%82%B9%E8%B5%9E%E5%B0%8F%E9%B9%8F%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">马斯克点赞小鹏机器人</a> [18] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">微软 Microsoft VS code excel office power 量子</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758914" target="_blank" class="news-link">美政府停摆现转机，标普惊险收涨，科技股拖累纳指走低，微软八连跌，加密货币大反弹</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758922" target="_blank" class="news-link">国办：加强人工智能领域关键核心技术攻关和推广应用，推动海陆空全空间无人体系应用和标准建设</a> [8] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">汽车 自动驾驶 智能驾驶 电车 电池 续航 油车</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569874141709533222/" target="_blank" class="news-link">官方：稀土锂电池等出口管制暂停实施</a> [15] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">房地产 房产 二手房 断供 违约 下行 见底 租房 房租</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569479537906601514/" target="_blank" class="news-link">黄奇帆：建议建老年人房产倒按揭体系</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
