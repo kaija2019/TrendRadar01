@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 47</p><p>生成时间: 2025-11-10 11:25:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">2</td>
+                <td class="percentage">4.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E7%BE%8E%E6%94%BF%E5%BA%9C%E2%80%9C%E5%81%9C%E6%91%86%E2%80%9D%E6%8E%A5%E8%BF%91%E7%BB%93%E6%9D%9F" target="_blank" class="news-link">特朗普：美政府“停摆”接近结束</a> [17] <font color='grey'>- 11时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7570900458852585002/" target="_blank" class="news-link">特朗普拟向民众发关税红利有何目的</a> [25] <font color='grey'>- 11时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">马斯克 elon mask 星链 航天 火箭 nasa 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2300662" target="_blank" class="news-link">火箭122:115雄鹿</a> [8] <font color='grey'>- 11时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">openai chatgpt Sam Altman 投资 收入</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2195426" target="_blank" class="news-link">11月10日投资避雷针：固态电池概念人气股突发公告 董事及高管涉嫌短线交易被立案</a> [12] <font color='grey'>- 11时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346923&amp;amp;topic_name=%E6%80%92%E5%96%8A%E7%A0%8D%E5%A4%B4%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%2C%E4%B8%AD%E5%9B%BD%E9%A2%86%E4%BA%8B%E9%81%AD%E5%9B%B4%E6%94%BB" target="_blank" class="news-link">怒喊砍头高市早苗,中国领事遭围攻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">经济 通胀 利息 利率 投资 收益 回报 社保</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758996" target="_blank" class="news-link">10月CPI数据点评：核心通胀缘何持续攀升</a> [10] <font color='grey'>- 11时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京 新疆</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BD%99%E5%B9%BF%E4%B8%9C%E6%B6%89%E5%AB%8C%E4%B8%A5%E9%87%8D%E8%BF%9D%E7%BA%AA%E8%BF%9D%E6%B3%95%E4%B8%BB%E5%8A%A8%E6%8A%95%E6%A1%88" target="_blank" class="news-link">余广东涉嫌严重违纪违法主动投案</a> [24] <font color='grey'>- 11时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
