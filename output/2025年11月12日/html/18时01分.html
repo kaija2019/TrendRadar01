@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-12 18:01:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京 新疆</td>
+                <td class="count">4</td>
+                <td class="percentage">8.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2303291" target="_blank" class="news-link">全运男篮决赛广东vs浙江</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571771267850931762/" target="_blank" class="news-link">江苏车牌将启动新字母号段系谣言</a> [11] <font color='grey'>- 18时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571690027210702867/" target="_blank" class="news-link">江苏永庆寺阁楼被烧得只剩框架</a> [13] <font color='grey'>- 18时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571746441212149801/" target="_blank" class="news-link">台湾民众参访团到访北京西城</a> [20] <font color='grey'>- 18时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">3</td>
+                <td class="percentage">6.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oDiUjtbved" target="_blank" class="news-link">美国众议员们向华盛顿“冲刺”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571731332137651738/" target="_blank" class="news-link">美国蒸汽弹射企业真破产了吗</a> [26] <font color='grey'>- 18时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571130765851443254/" target="_blank" class="news-link">特朗普称没有稀土磁铁就什么都没有</a> [28] <font color='grey'>- 18时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 elon mask 星链 航天 火箭 nasa 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571742472888389162/" target="_blank" class="news-link">段永平不买特斯拉是因看不惯马斯克吗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时01分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%89%8B%E6%90%93%E7%81%AB%E7%AE%AD%E4%B8%8A%E4%BA%86%E5%86%9B%E4%BA%8B%E9%A2%91%E9%81%93" target="_blank" class="news-link">UP主手搓火箭上了军事频道</a> [13] <font color='grey'>- 18时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">openai chatgpt Sam Altman 投资 收入</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1971876502145562352" target="_blank" class="news-link">段永平退休 20 多年罕见公开访谈，聊到投资需要看懂一家公司，到底怎么样才算真的看懂了一家公司呢？</a> [15] <font color='grey'>- 18时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571689566512660506/" target="_blank" class="news-link">33岁刘灿破格晋升中国人民大学教授</a> [27] <font color='grey'>- 18时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
