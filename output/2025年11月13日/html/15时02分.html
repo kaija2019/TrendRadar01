@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 73</p><p>生成时间: 2025-11-13 15:02:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">3</td>
+                <td class="percentage">4.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BB%8E%E5%8D%81%E4%BA%94%E8%BF%90%E4%BC%9A%E7%9C%8B%E2%80%9C%E4%B8%AD%E5%9B%BD%E9%80%9F%E5%BA%A6%E2%80%9D" target="_blank" class="news-link">从十五运会看“中国速度”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571383317687468095/" target="_blank" class="news-link">中国澳门选手朱雨玲晋级四强创历史</a> [16] <font color='grey'>- 15时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571603671295262739/" target="_blank" class="news-link">海基会前董事长：台湾自古归属中国</a> [28] <font color='grey'>- 15时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">3</td>
+                <td class="percentage">4.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oFRSvaH1ne" target="_blank" class="news-link">2万页爱泼斯坦邮件曝光，称特朗普私下里比公开形象更糟糕</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E7%BB%93%E6%9D%9F%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%BF%E2%80%9C%E5%81%9C%E6%91%86%E2%80%9D" target="_blank" class="news-link">美国政府结束史上最长“停摆”</a> [8] <font color='grey'>- 15时02分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oFEfoIotGG" target="_blank" class="news-link">特朗普致信以总统呼吁赦免以总理，以媒：以总统有权赦免</a> [9] <font color='grey'>- 15时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">openai chatgpt Sam Altman 投资 收入</td>
+                <td class="count">2</td>
+                <td class="percentage">2.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%BA%A2%E5%A9%B5%E7%9B%B4%E6%92%AD%E6%94%B6%E5%85%A5%E5%85%A8%E9%83%A8%E6%8D%90%E7%BB%99%E4%B9%A1%E6%9D%91%E5%84%BF%E7%AB%A5" target="_blank" class="news-link">全红婵直播收入全部捐给乡村儿童</a> [10] <font color='grey'>- 15时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759294" target="_blank" class="news-link">阿里股价直线拉升！报道：公司计划全面改版“通义”AI应用，新一代Qwen直接对标ChatGPT</a> [10] <font color='grey'>- 15时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">汽车 自动驾驶 智能驾驶 电车 电池 续航 油车</td>
+                <td class="count">1</td>
+                <td class="percentage">1.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1972208953699067712" target="_blank" class="news-link">奇瑞汽车就「天门山挑战测试意外」致歉，事故暴露了哪些问题？对车企极限测试有何警示？</a> [16] <font color='grey'>- 15时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京 新疆</td>
+                <td class="count">1</td>
+                <td class="percentage">1.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B1%9F%E8%8B%8F%E8%BD%A6%E7%89%8C%E5%B0%86%E5%90%AF%E5%8A%A8%E6%96%B0%E5%AD%97%E6%AF%8D%E5%8F%B7%E6%AE%B5%E7%B3%BB%E8%B0%A3%E8%A8%80" target="_blank" class="news-link">江苏车牌将启动新字母号段系谣言</a> [11] <font color='grey'>- 15时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
