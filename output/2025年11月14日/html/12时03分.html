@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2025-11-14 12:03:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">3</td>
+                <td class="percentage">5.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%86%9B%E5%8F%B7%E5%8F%91%E5%B8%83%E6%97%A5%E8%AF%AD%E6%B5%B7%E6%8A%A5%E8%AD%A6%E5%91%8A%E6%97%A5%E6%96%B9" target="_blank" class="news-link">中国军号发布日语海报警告日方</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E5%86%9B%E5%8F%B7%E8%AD%A6%E5%91%8A%E6%97%A5%E6%9C%AC%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D22%26cate%3D5001%26band_rank%3D22%26stream_entry_id%3D31%26pos%3D22%26dgr%3D0%26flag%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E5%2586%259B%25E5%258F%25B7%25E8%25AD%25A6%25E5%2591%258A%25E6%2597%25A5%25E6%259C%25AC%2523%26c_type%3D31%26display_time%3D1763092975%26pre_seqid%3D176309297543201128085142&amp;launchid=10000360-page_H5" target="_blank" class="news-link">中国军号警告日本</a> [22] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7571696540570648612/" target="_blank" class="news-link">中国军号用日语发文警告日本</a> [23] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">马斯克 elon mask 星链 航天 火箭 nasa 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2305384" target="_blank" class="news-link">贝索斯终于追上马斯克一小步</a> [17] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%A5%9E20%E8%88%AA%E5%A4%A9%E5%91%98%E8%B8%8F%E4%B8%8A%E5%9B%9E%E5%AE%B6%E4%B9%8B%E6%97%85%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D19%26cate%3D5001%26band_rank%3D19%26stream_entry_id%3D31%26pos%3D19%26dgr%3D0%26flag%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26q%3D%2523%25E7%25A5%259E20%25E8%2588%25AA%25E5%25A4%25A9%25E5%2591%2598%25E8%25B8%258F%25E4%25B8%258A%25E5%259B%259E%25E5%25AE%25B6%25E4%25B9%258B%25E6%2597%2585%2523%26c_type%3D31%26display_time%3D1763092975%26pre_seqid%3D176309297543201128085142&amp;launchid=10000360-page_H5" target="_blank" class="news-link">神20航天员踏上回家之旅</a> [19] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">苹果 库克 iphone ipad mac ios ipod</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2305449" target="_blank" class="news-link">iPhone Pocket开箱</a> [14] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%8D%E6%98%AFAI%E4%B9%9F%E4%B8%8D%E6%98%AF%E7%9C%9F%E7%9A%84%E6%B5%B7%E6%B5%AA" target="_blank" class="news-link">不是AI也不是真的海浪</a> [20] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oGsK5I0blR" target="_blank" class="news-link">美军1.5万兵力压境委内瑞拉，地面打击方案提交特朗普待批</a> [7] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京 新疆</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%B3%B0%E5%9B%BD%E5%9B%BD%E7%8E%8B%E5%8F%8A%E7%8E%8B%E5%90%8E%E6%8A%B5%E8%BE%BE%E5%8C%97%E4%BA%AC%E7%8E%B0%E5%9C%BA%E7%94%BB%E9%9D%A2%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D25%26cate%3D5001%26band_rank%3D25%26stream_entry_id%3D31%26pos%3D25%26dgr%3D0%26flag%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26q%3D%2523%25E6%25B3%25B0%25E5%259B%25BD%25E5%259B%25BD%25E7%258E%258B%25E5%258F%258A%25E7%258E%258B%25E5%2590%258E%25E6%258A%25B5%25E8%25BE%25BE%25E5%258C%2597%25E4%25BA%25AC%25E7%258E%25B0%25E5%259C%25BA%25E7%2594%25BB%25E9%259D%25A2%2523%26c_type%3D31%26display_time%3D1763092975%26pre_seqid%3D176309297543201128085142&amp;launchid=10000360-page_H5" target="_blank" class="news-link">泰国国王及王后抵达北京现场画面</a> [25] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">chemical nature 反应器 化学 科研 反应 化工 巴斯夫 chemistry</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%8F%AB%E5%9A%A3%E5%87%BA%E5%85%B5%E5%8F%B0%E6%B5%B7+%E7%BD%91%E5%8F%8B%E5%8F%8D%E5%BA%94%E4%BA%AE%E4%BA%86" target="_blank" class="news-link">高市早苗叫嚣出兵台海 网友反应亮了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
