@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-17 15:01:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">5</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347195&amp;amp;topic_name=%E6%97%A5%E8%88%B0%E7%82%AE%E9%BD%90%E5%B0%84%E6%8C%91%E8%A1%85%2C%E5%8F%AB%E5%9A%A3%E4%B8%9C%E5%A4%A7%E9%BB%84%E6%B5%B7%E5%86%9B%E6%BC%94" target="_blank" class="news-link">日舰炮齐射挑衅,叫嚣东大黄海军演</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E5%BC%BA%E7%83%88%E5%9B%9E%E5%BA%94%E9%9C%87%E5%8A%A8%E6%97%A5%E6%9C%AC%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E5%25BC%25BA%25E7%2583%2588%25E5%259B%259E%25E5%25BA%2594%25E9%259C%2587%25E5%258A%25A8%25E6%2597%25A5%25E6%259C%25AC%2523%26realpos%3D1%26band_rank%3D1%26pos%3D0%26dgr%3D0%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26lcate%3D5001%26display_time%3D1763362858%26pre_seqid%3D17633628585630280741039&amp;launchid=10000360-page_H5" target="_blank" class="news-link">中国强烈回应震动日本</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8F%B0%E6%B9%BE%E6%B0%91%E4%BC%97%E5%9D%A6%E7%84%B6%E8%AF%B4%E5%87%BA%E6%88%91%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26q%3D%2523%25E5%258F%25B0%25E6%25B9%25BE%25E6%25B0%2591%25E4%25BC%2597%25E5%259D%25A6%25E7%2584%25B6%25E8%25AF%25B4%25E5%2587%25BA%25E6%2588%2591%25E6%2598%25AF%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BA%25BA%2523%26realpos%3D10%26band_rank%3D10%26pos%3D11%26dgr%3D0%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26lcate%3D5001%26display_time%3D1763362858%26pre_seqid%3D17633628585630280741039&amp;launchid=10000360-page_H5" target="_blank" class="news-link">台湾民众坦然说出我是中国人</a> [10] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7572904875756912659/" target="_blank" class="news-link">德企负责人：与中国脱钩不可能</a> [25] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E4%BD%BF%E9%A6%86%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%9A%82%E5%8B%BF%E5%89%8D%E5%BE%80%E9%98%BF%E5%AF%8C%E6%B1%97" target="_blank" class="news-link">中使馆：中国公民暂勿前往阿富汗</a> [26] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">汽车 自动驾驶 智能驾驶 电车 电池 续航 油车</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2202294" target="_blank" class="news-link">固液混合电池十万辆级装车“近在眼前” 但全固态还“远未到来” |直击电池峰会</a> [13] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1973092896992405333" target="_blank" class="news-link">玛莎拉蒂纯电车骨折式降价，经销商降价 54 万开卖，去年在华销量暴跌 70%，如何看待玛莎拉蒂当下市场定位？</a> [18] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能 artificial</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759516" target="_blank" class="news-link">千问APP正式上线，阿里要打造AI超级入口！</a> [9] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">俄乌</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7573518187849846315/" target="_blank" class="news-link">俄乌战争若打12年结局会是什么</a> [27] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%94%AF%E6%8C%81%E5%85%AC%E5%B8%83%E7%88%B1%E6%B3%BC%E6%96%AF%E5%9D%A6%E6%96%87%E4%BB%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E6%2594%25AF%25E6%258C%2581%25E5%2585%25AC%25E5%25B8%2583%25E7%2588%25B1%25E6%25B3%25BC%25E6%2596%25AF%25E5%259D%25A6%25E6%2596%2587%25E4%25BB%25B6%2523%26realpos%3D19%26band_rank%3D19%26pos%3D20%26dgr%3D0%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26lcate%3D5001%26display_time%3D1763362858%26pre_seqid%3D17633628585630280741039&amp;launchid=10000360-page_H5" target="_blank" class="news-link">特朗普支持公布爱泼斯坦文件</a> [19] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">数字货币 稳定币 比特币</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7572930273534345226/" target="_blank" class="news-link">美被曝伪造证据黑吃黑窃取巨额比特币</a> [10] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
