@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-11-27 16:02:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">马斯克 elon mask 星链 航天 火箭 nasa 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7577255233575764014/" target="_blank" class="news-link">火箭客场104-100险胜勇士</a> [30] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA GPU 算力</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2212358" target="_blank" class="news-link">再狙英伟达！“大空头”炮轰：你们的反击充斥着“稻草人谬误”</a> [12] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">openai chatgpt Sam Altman 投资 收入</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1977091164105638048" target="_blank" class="news-link">如何看待阿里最新财报，闪购营销费用增加 300 多亿收入却仅增 80 多亿，核心电商持续被抖音和拼多多赶超？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7577284830715448874/" target="_blank" class="news-link">谁在悄悄吃掉日本丢掉的中国游客</a> [8] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32053388" target="_blank" class="news-link">特朗普致电高市：别在台湾问题上挑衅</a> [20] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技 机器人 阿里 腾讯</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A4%B8%E5%85%8B%E7%9C%BC%E9%95%9C%E8%A3%85%E4%B8%8B%E6%95%B4%E4%B8%AA%E9%98%BF%E9%87%8C%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">夸克眼镜装下整个阿里</a> [15] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">chemical nature 反应器 化学 科研 反应 化工 巴斯夫 chemistry</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2319097" target="_blank" class="news-link">日本教授：不认为中方反应过度</a> [21] <font color='grey'>- 16时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
