@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 72</p><p>生成时间: 2025-12-01 17:03:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国 东大 新质生产力</td>
+                <td class="count">7</td>
+                <td class="percentage">9.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ojPkSZ4cmc" target="_blank" class="news-link">澳大利亚称一支中国海军舰队可能正前往该国，中方回应</a> [6] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8D%A2%E6%97%BA%E8%BE%BE%E6%98%AF%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E4%B8%AD%E5%9B%BD%E7%9A%84" target="_blank" class="news-link">卢旺达是如何学习中国的</a> [12] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578491191621173291/" target="_blank" class="news-link">杨舒予会成为中国女篮未来领军者吗</a> [18] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E6%BE%B3%E5%9B%BD%E9%98%B2%E9%83%A8%E7%A7%B0%E7%9B%91%E6%B5%8B%E5%88%B0%E4%B8%AD%E5%9B%BD%E8%88%B0%E9%98%9F" target="_blank" class="news-link">中方回应澳国防部称监测到中国舰队</a> [18] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578792179401756170/" target="_blank" class="news-link">中国第一次太空修飞船究竟多重要</a> [19] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32077158" target="_blank" class="news-link">中国公民即日起至2026年9月14日可免签前往俄罗斯</a> [19] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2323217" target="_blank" class="news-link">中国男篮vs韩国男篮</a> [21] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">省市新闻 江苏 广东 上海 浙江 北京 新疆</td>
+                <td class="count">2</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E5%8F%91%E7%8E%B0%E6%96%B0%E7%89%A9%E7%A7%8D+%E5%A0%AA%E7%A7%B0%E6%A4%8D%E7%89%A9%E7%95%8C%E5%A4%A7%E7%86%8A%E7%8C%AB" target="_blank" class="news-link">广东发现新物种 堪称植物界大熊猫</a> [17] <font color='grey'>- 17时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E7%AE%AD%E6%89%A3%E9%95%BF%E5%9F%8E%E9%A6%96%E6%AC%A1%E5%8F%91%E7%8E%B0%E5%B4%87%E7%A5%AF%E4%BA%94%E5%B9%B4%E7%81%AB%E7%82%AE" target="_blank" class="news-link">北京箭扣长城首次发现崇祯五年火炮</a> [26] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 elon mask 星链 航天 火箭 nasa 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578723969742671414/" target="_blank" class="news-link">从神舟二十号三角裂纹看中国航天底气</a> [7] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国 特朗普 贸易战 科技战</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ojNQ6MCJEg" target="_blank" class="news-link">特朗普拒邀南非参加明年G20峰会，南非：我们是创始成员国</a> [8] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">经济 通胀 利息 利率 投资 收益 回报 社保</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/658394235" target="_blank" class="news-link">如果《英雄联盟》有位英雄攻速锁死 5.0 但经济获取量只有其他英雄的三分之一，这个英雄强度怎么样？</a> [18] <font color='grey'>- 17时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
